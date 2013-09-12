@@ -113,7 +113,7 @@ body {
 		display: inline-block;
 		top: -2em;
 		position: relative;
-		height:30em;
+		height:31em;
 		background: #fff;
 		z-index: 3;
 	}
@@ -163,6 +163,9 @@ body {
 	height:14em;
 	background: #eb5055;
 	z-index: 5;
+}
+.arrow_box a:hover {
+	opacity:.5;
 }
 .arrow_box:after {
 	top: 100%;
@@ -290,6 +293,175 @@ h2 {
 	margin: 0 0 1em ;
 }
 
+.redesign {
+	width: 100%;
+	display:inline-block;
+}
+.redesign a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.redesign a:hover {
+	opacity: .5;
+}
+
+.redesign img {
+	width: 100%;
+}
+
+
+.webdesign {
+	width: 100%;
+	display:block;
+}
+.webdesign a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.webdesign a:hover {
+	opacity: .5;
+}
+
+.webdesign img {
+	width: 100%;
+}
+
+.package {
+	width: 100%;
+	display:block;
+}
+.package a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.package a:hover {
+	opacity: .5;
+}
+
+.package img {
+	width: 100%;
+}
+
+.busad {
+	width: 100%;
+	display:block;
+}
+.busad a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.busad a:hover {
+	opacity: .5;
+}
+
+.busad img {
+	width: 100%;
+}
+
+@media only screen and (min-width: 26em){
+
+.redesign {
+	width: 80%;
+	display:inline-block;
+}
+.redesign a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.redesign a:hover {
+	opacity: .5;
+}
+
+.redesign img {
+	width: 100%;
+}
+
+
+.webdesign {
+	width: 80%;
+	display:inline-block;
+}
+.webdesign a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.webdesign a:hover {
+	opacity: .5;
+}
+
+.webdesign img {
+	width: 100%;
+}
+
+.package {
+	width: 80%;
+	display:inline-block;
+}
+.package a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+.package a:hover {
+	opacity: .5;
+}
+
+.package img {
+	width: 100%;
+}
+
+.busad {
+	width: 80%;
+	display:inline-block;
+}
+.busad a {
+	display:block;
+	font-weight: 600;
+	color:#333;
+	text-decoration:none;
+}
+busad a:hover {
+	opacity: .5;
+}
+
+.busad img {
+	width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 37.5em){
+.redesign {
+	width:45%;
+	margin-left: 1.5em;
+}
+.webdesign {
+	width:45%;
+	margin-left: 1.5em;
+}
+.package {
+	width:45%;
+	margin-left: 1.5em;
+}
+.busad {
+	width:45%;
+	margin-left: 1.5em;
+}
+}
+
 
 .head_img{
 	border-bottom: thin solid #666;
@@ -330,16 +502,20 @@ h2 {
 		width: 67%;
 		margin-left: .5em;
 		margin-top: 5em;
-		height: 38.5em;
-		overflow:hidden;
+		height: 39.4em;
+		overflow:scroll;
 	
 	}
 	.content {
 		padding-left: 5em;
-		padding-top: 3em;
+		padding-top: 1em;
 	}
 	.body_img {
-		margin-top: -6em;
+		margin-top: -4em;
+		margin-right: 3em;
+	}
+	.content p {
+		width: 60%;
 	}
 }
 /*------------------------------------*\
@@ -354,6 +530,9 @@ footer {
 	margin-top: -1em;
 	margin-bottom: .7em;
 	height:50px;
+}
+.footer_img:hover {
+	opacity: .5;
 }
 
 
