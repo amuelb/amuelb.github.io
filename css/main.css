@@ -369,97 +369,29 @@ h2 {
 @media only screen and (min-width: 26em){
 
 .redesign {
-	width: 80%;
+	width: 45%;
+	margin-left:1.5em;
 	display:inline-block;
 }
-.redesign a {
-	display:block;
-	font-weight: 600;
-	color:#333;
-	text-decoration:none;
-}
-.redesign a:hover {
-	opacity: .5;
-}
-
-.redesign img {
-	width: 100%;
-}
-
 
 .webdesign {
-	width: 80%;
+	width: 45%;
+	margin-left:1.5em;
 	display:inline-block;
-}
-.webdesign a {
-	display:block;
-	font-weight: 600;
-	color:#333;
-	text-decoration:none;
-}
-.webdesign a:hover {
-	opacity: .5;
-}
-
-.webdesign img {
-	width: 100%;
 }
 
 .package {
-	width: 80%;
+	width: 45%;
+	margin-left:1.5em;
 	display:inline-block;
-}
-.package a {
-	display:block;
-	font-weight: 600;
-	color:#333;
-	text-decoration:none;
-}
-.package a:hover {
-	opacity: .5;
-}
-
-.package img {
-	width: 100%;
 }
 
 .busad {
-	width: 80%;
+	width: 45%;
+	margin-left:1.5em;
 	display:inline-block;
 }
-.busad a {
-	display:block;
-	font-weight: 600;
-	color:#333;
-	text-decoration:none;
-}
-busad a:hover {
-	opacity: .5;
-}
 
-.busad img {
-	width: 100%;
-}
-
-}
-
-@media only screen and (min-width: 37.5em){
-.redesign {
-	width:45%;
-	margin-left: 1.5em;
-}
-.webdesign {
-	width:45%;
-	margin-left: 1.5em;
-}
-.package {
-	width:45%;
-	margin-left: 1.5em;
-}
-.busad {
-	width:45%;
-	margin-left: 1.5em;
-}
 }
 
 
